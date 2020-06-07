@@ -1,0 +1,19 @@
+.toolbar {
+  background-color: #2978a0;
+  position: initial;
+  z-index: 6;
+}
+
+mat-sidenav-content {
+  height: calc(100vh - 80px);
+  padding-left: 16px;
+  padding-top: 16px;
+}
+
+mat-nav-list {
+    margin-top: -16px;
+}
+
+mat-sidenav {
+  background-color: #c6e0ff !important;
+}

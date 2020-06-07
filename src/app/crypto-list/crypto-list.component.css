@@ -1,0 +1,37 @@
+.container {
+   width: 70%;
+   margin: 0 auto;
+   margin-bottom: 15px;
+   margin-top : -120px;
+}
+
+.background {
+  background: linear-gradient(#2978a0, white);
+  height: 20%;
+  margin-left: -16px;
+  margin-top: -16px;
+}
+
+mat-form-field {
+  display: contents;
+  font-size: 14px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+::ng-deep .mat-focused .mat-form-field-label {
+ /*change color of label*/
+ color: white !important;
+}
+
+::ng-deep.mat-form-field-ripple {
+/*change color of underline when focused*/
+background-color: white !important;;
+}
+
+input {
+  color :white
+}

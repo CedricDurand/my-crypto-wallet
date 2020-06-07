@@ -1,0 +1,7 @@
+mat-nav-list a {
+  color: #315659;
+}
+
+mat-nav-list a:hover {
+  color: #2978a0;
+}
